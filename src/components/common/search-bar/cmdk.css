@@ -15,7 +15,8 @@
 }
 
 [cmdk-input]{
-    --at-apply: w-full p-3 outline-none bg-transparent placeholder:color-neutral-500/60 border-color-neutral/10 border-b;
+    --at-apply: w-full p-3 outline-none bg-transparent ;
+    placeholder:color-neutral-500/60 border-color-neutral/10 border-b;
 }
 
 [cmdk-list] {
