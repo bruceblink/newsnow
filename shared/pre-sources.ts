@@ -483,6 +483,20 @@ export const originSources = {
       },
     },
   },
+  "amz123": {
+    name: "跨境头条",
+    column: "china",
+    color: "lightBlue",
+    home: "https://www.amz123.com",
+    sub: {
+      kx: {
+        title: "跨境快讯",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://www.amz123.com/kx",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

@@ -534,7 +534,7 @@
     "home": "https://v.qq.com/channel/tv",
     "color": "blue",
     "interval": 1800000,
-    "title": "电视剧-热搜榜"
+    "title": "热搜榜"
   },
   "qqvideo-tv-hotsearch": {
     "name": "腾讯视频",
@@ -543,7 +543,7 @@
     "home": "https://v.qq.com/channel/tv",
     "color": "blue",
     "interval": 1800000,
-    "title": "电视剧-热搜榜"
+    "title": "热搜榜"
   },
   "iqiyi": {
     "redirect": "iqiyi-hot-ranklist",
@@ -563,5 +563,24 @@
     "color": "green",
     "interval": 1800000,
     "title": "热播榜"
+  },
+  "amz123": {
+    "redirect": "amz123-kx",
+    "name": "跨境头条",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://www.amz123.com/kx",
+    "color": "lightBlue",
+    "interval": 1800000,
+    "title": "跨境快讯"
+  },
+  "amz123-kx": {
+    "name": "跨境头条",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://www.amz123.com/kx",
+    "color": "lightBlue",
+    "interval": 1800000,
+    "title": "跨境快讯"
   }
 }
